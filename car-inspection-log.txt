@@ -1,0 +1,6 @@
+EXCEPTION: Registration number CBA321 is not valid
+integration.InvalidRegNumberException: Registration number CBA321 is not valid
+	at integration.DatabaseManager.findInspectionsByVehicle(DatabaseManager.java:30)
+	at controller.Controller.enterVehicleNumber(Controller.java:69)
+	at view.View.execution(View.java:45)
+	at startup.Main.main(Main.java:25)
